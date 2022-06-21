@@ -15,7 +15,6 @@ root.render(
           <AppNavbar />
         </header>
 
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chatbot" element={<Chatbot />} />

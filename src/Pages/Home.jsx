@@ -1,6 +1,6 @@
 import React from 'react';
 import "./../css/styles.css";
-import Ipssi from "../img/ipssi.png"
+import Ipssi from "../img/ipssi.png";
 const homePage = () => {
     return (
         <div className="presentation">
@@ -8,8 +8,11 @@ const homePage = () => {
                 Sur ce site vous trouverez un chatbot vous permettant de vous renseignez sur la grande Ecole d'informatique : IPSSI !
             </p>
 
-            <img className="img" src={Ipssi} />
+                    <img className="image" src={Ipssi} />
+
         </div>
+
+
     );
 };
 
