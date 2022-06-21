@@ -1,0 +1,26 @@
+.presentation{
+
+    width: 300px;
+    border: 15px solid #04002d;
+    padding: 50px;
+    margin: 60px;
+    margin-top: 6%;
+}
+
+body{
+    background-color: #000000;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.img{
+
+
+    filter: invert(100%) sepia(96%) saturate(15%) hue-rotate(212deg) brightness(104%) contrast(104%);
+
+}
